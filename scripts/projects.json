@@ -1,0 +1,145 @@
+[
+  {
+    "Title": "Blade Rush",
+    "ImagePath": "resources/bladerush_card.gif",
+    "Description": "Fast paced arcade action, available on Steam! Winner of the first LGN summit!",
+    "ButtonLink": "bladerush.html",
+    "Special": true,
+    "Unimportant": false,
+    "Award": true,
+    "Year": 2025,
+    "Tags":
+    [
+      "Steam",
+      "LÖVE2D"
+    ]
+  },
+  {
+    "Title": "Indev Project",
+    "ImagePath": "resources/vekzura_card.gif",
+    "Description": "In development Unity project. Come follow along!",
+    "ButtonLink": "https://bsky.app/profile/noba.games",
+    "Special": true,
+    "Unimportant": false,
+    "Award": false,
+    "Year": 2026,
+    "Tags": 
+    [
+      "BlueSky",
+      "Unity"
+    ]
+  },
+  {
+    "Title": "Trihard",
+    "ImagePath": "resources/trihard_card.gif",
+    "Description": "Pico 8 project.",
+    "ButtonLink": "https://n0ba.itch.io/trihard",
+    "Special": true,
+    "Unimportant": false,
+    "Award": false,
+    "Year": 2021,
+    "Tags": 
+    [
+      "Pico 8",
+      "itch.io",
+      "Play on Web!",
+      "Play on Mobile!"
+    ]
+  },
+  {
+    "Title": "Byte Sabor",
+    "ImagePath": "resources/bytesaborpico_card.gif",
+    "Description": "Pico 8 project.",
+    "ButtonLink": "https://n0ba.itch.io/byte-sabor",
+    "Special": true,
+    "Unimportant": false,
+    "Award": false,
+    "Year": 2020,
+    "Tags": 
+    [
+      "Pico 8",
+      "itch.io",
+      "Play on Web!",
+      "Play on Mobile!"
+    ]
+  },
+  {
+    "Title": "Every Extend Extra",
+    "ImagePath": "resources/eee_card.gif",
+    "Description": "Pico 8 project.",
+    "ButtonLink": "https://n0ba.itch.io/every-extend-extra-pico-8-edition",
+    "Special": false,
+    "Unimportant": false,
+    "Award": false,
+    "Year": 2020,
+    "Tags": 
+    [
+      "Pico 8",
+      "itch.io",
+      "Play on Web!",
+      "Play on Mobile!"
+    ]
+  },
+  {
+    "Title": "Terrain Generation",
+    "ImagePath": "resources/terrain_card.gif",
+    "Description": "University assignment extended to include cellular automata based terrain generation.",
+    "ButtonLink": "https://github.com/Jole-C/5210-Terrain-Gen",
+    "Special": false,
+    "Unimportant": false,
+    "Award": false,
+    "Year": 2022,
+    "Tags": 
+    [
+      "C++",
+      "SFML"
+    ]
+  },
+  {
+    "Title": "BUG-GER",
+    "ImagePath": "resources/bugger_card.gif",
+    "Description": "First place winner of the LJMU Game Jam, created alongside two other students!",
+    "ButtonLink": "https://github.com/Jole-C/BUGGER-GameJam",
+    "Special": false,
+    "Unimportant": false,
+    "Award": false,
+    "Year": 2023,
+    "Tags": 
+    [
+      "UE5",
+      "C++"
+    ]
+  },
+  {
+    "Title": "Other stuff!",
+    "ImagePath": "resources/everythingelse_card.gif",
+    "Description": "Lots of other small things made over the years!",
+    "ButtonLink": null,
+    "Special": false,
+    "Unimportant": true,
+    "Award": false,
+    "Tags": 
+    [
+      "UE5",
+      "Unity",
+      "GameMaker",
+      "etc..."
+    ]
+  },
+  {
+    "Title": "Even more stuff!",
+    "ImagePath": "resources/everythingelse2_card.gif",
+    "Description": "Even more things!",
+    "ButtonLink": null,
+    "Special": false,
+    "Unimportant": true,
+    "Award": false,
+    "Tags": 
+    [
+      "GameMaker",
+      "SFML",
+      "Pico 8",
+      "etc..."
+    ]
+  }
+]

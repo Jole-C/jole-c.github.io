@@ -1,0 +1,363 @@
+
+@font-face
+{
+	src: url("resources/bladerush/font.otf");
+	font-family: "main-font";
+}
+
+html, body
+{
+	min-height: 100%;
+	margin: 0%;
+}
+
+body
+{
+	background: linear-gradient(to right, #0084ff 0%, #92ceff 50%, #0084ff 100%); 
+	background-size: 10000px 100%;
+	animation: bg 15s linear infinite;
+}
+
+@keyframes bg{
+	0% {
+	background-position-x: 0;
+	}
+
+	100% {
+	background-position-x: 10000px ;
+	}
+}
+
+.root
+{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main
+{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;  
+
+	background-image: radial-gradient(#2c042c 50%, #190019 15%);
+	background-size: 60px 60px;
+	background-position: 0 0, 30px 30px;
+	animation: pulse 20s infinite;
+}
+
+@keyframes pulse
+{
+	0%
+	{
+		background-position: 0% 0%;
+	}
+
+	50%
+	{
+		background-position: 30% 15%;
+	}
+
+	100%
+	{
+		background-position: 0% 0%;
+	}
+}
+
+
+@media (min-width: 768px)
+{
+	.main
+	{
+		mask: repeating-conic-gradient(from 45deg at 30px 50%,#0000,#000 1deg 89deg,#0000 90deg 180deg) -30px 50%/100% 60px;
+	}
+}
+
+.logo
+{
+	width: 100%;
+	aspect-ratio: 3.02 / 1;
+}
+
+@media (min-width: 1000px)
+{
+	.main
+	{
+		width: 80%;
+	}
+}
+
+@media (min-width: 2200px)
+{
+	.main
+	{
+		max-width: 50%;
+	}
+}
+
+.main iframe
+{
+	margin-bottom: 5%;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 768px)
+{
+	.main iframe
+	{
+		width: 60%;
+	}
+}
+
+h1
+{
+	font-family: "main-font";
+	color: white;
+	font-size: 3em;
+}
+
+p
+{
+	font-family: "main-font";
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+.cool-stuff-holder
+{
+	margin-top: 0%;
+	padding: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+.cool-text-holder
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.cool-image-wrapper
+{
+	display: flex;
+	width: 100%;
+}
+
+.cool-image-wrapper img
+{
+	width: 100%;
+	height: auto;
+	align-self: center;
+	border-style: solid;
+	border-width: 10%;
+	border-color: white;
+}
+
+.cool-image-left
+{
+	padding-right: 0%;
+}
+
+.cool-image-right
+{
+	padding-left: 0%;
+}
+
+.cool-stuff-holder h1
+{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.cool-stuff-holder p
+{
+	width: 100%;
+	font-size: 1.3em;
+}
+
+.cool-stuff-holder p a 
+{
+	font-size: 1em;
+}
+
+@media (min-width: 768px)
+{
+	.cool-stuff-holder
+	{
+		display: flex;
+		flex-direction: row;
+		width: 75%;
+	}
+
+	.cool-stuff-holder h1
+	{
+		text-align: left;
+		margin: 0%;
+	}
+
+	.cool-stuff-holder p
+	{
+		text-align: left;
+	}
+
+	.cool-text-holder
+	{
+		width: 50%;
+		justify-content: flex-start;
+	}
+
+	.cool-image-wrapper
+	{
+		width: 50%;
+	}
+
+	.cool-image-left
+	{
+		padding-right: 5%;
+	}
+
+	.cool-image-right
+	{
+		padding-left: 5%;
+	}
+
+	.cool-text-holder a
+	{
+		font-size: 1em;
+	}
+}
+
+a
+{
+	font-family: "main-font";
+	color: white;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+a:hover
+{
+	font-weight: 600;
+}
+
+.panic
+{
+	font-family: "main-font";
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	margin: 10%;
+}
+
+.panic:hover
+{
+	font-weight: 600;
+}
+
+.desktop-nav
+{
+	display: none;
+	width: 100%;
+	padding: 0.5%;
+	padding-left: 10%;
+	position: -webkit-fixed;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	backdrop-filter: blur(5px);
+}
+
+.mobile-nav
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+@media (min-width: 768px)
+{
+	.panic
+	{
+		text-align: left;
+		margin: 0%;
+	}
+
+	.desktop-nav
+	{
+		display: block;
+	}
+
+	.mobile-nav
+	{
+		display: none;
+	}
+}
+
+li
+{
+	padding: 0%;
+}
+
+ul
+{
+	padding: 0%;
+	font-family: "main-font";
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+ul a
+{
+	font-size: 1em;
+}
+
+@media (min-width: 768px)
+{
+	ul
+	{
+		padding: 0%;
+		font-family: "main-font";
+		color: white;
+		width: 100%;
+		text-align: center;
+		font-size: 1.5em;
+	}
+	p
+	{
+		font-size: 1.3em;
+		width: 70%;
+	}
+}
+
+.achievement
+{
+	font-family: "main-font";
+	font-size: 2em;
+	text-align: center;
+}
+
+.achievement a
+{
+	font-size: 1em;
+}
+
+@media (min-width: 768px)
+{
+	.achievement
+	{
+		font-size: 3em;
+	}
+}
